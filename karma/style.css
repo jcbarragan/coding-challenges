@@ -1,26 +1,31 @@
 body {
-  margin-left: 4em;
+    margin-left: 4em;
+  background-color: rgb(180, 184, 223);
 }
 
+
+
 .person {
-  margin: 0.5em;
+    margin: 0.5em;
   float: left;
-  border: 1px solid #ddd;
+  border: 1px solid #A75BC0;
   padding: 10px;
   width: 250px;
+  background-color: orange;
 }
 
 span.points {
-  margin-left: 0.5em;
-  border: 1px solid #939191;
-  border-radius: 50%;
+    margin-left: .5em;
+  border: 3px solid #5963C2;
+  border-radius: 50px;
   width: 17px;
   display: inline-block;
   text-align: center;
   padding: 5px;
-  background-color: #F4F1F1;
+  background-color: #B6D0F2;
   float: right;
   cursor: pointer;
+  color: rgb(224, 42, 222);
 }
 
 .points:hover {
@@ -40,4 +45,7 @@ span.points {
   display: none;
 }
 
-
+h1 {
+    color: rgb(89, 99, 194);
+    font-family: Butcherman Caps;
+}

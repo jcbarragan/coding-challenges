@@ -11,7 +11,6 @@ var $$ = {
   compare: function (a, b){
     return b.points - a.points;
   },
-  // modifyPointsFor(0, 2);
   modifyPointsFor: function(indexInArray, newPoints) {
     this.data[indexInArray].points = newPoints;
     this.storeData();
@@ -54,7 +53,6 @@ var $$ = {
 
   data: []
 }
-
 
 $(document).ready(function() {
   $$.readData();
